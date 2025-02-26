@@ -1,0 +1,48 @@
+:root {
+    --brand-color: rgb(240, 119, 44);
+    --brand-hover-color: #e65c00;
+    /* Slightly darker for hover effect */
+    --brand-active-color: #cc5200;
+    /* Even darker for active state */
+    --section-bg-color: rgb(242, 242, 242);
+}
+
+.text-brand {
+    color: var(--brand-color);
+}
+
+/* ---- Btn Styles ---- */
+.brand-button {
+    background-color: var(--brand-color);
+    border-color: var(--brand-color);
+}
+
+.brand-button:hover {
+    background-color: var(--brand-hover-color);
+    border-color: var(--brand-hover-color);
+}
+
+.brand-button:focus,
+.brand-button:focus-visible {
+    background-color: var(--brand-hover-color);
+    border-color: var(--brand-hover-color);
+}
+
+.brand-button:active {
+    background-color: var(--brand-active-color) !important;
+    border-color: var(--brand-active-color) !important;
+}
+
+/* ---- Navbar ---- */
+
+/* ---- Hero Section ---- */
+#hero-section h1 {
+    font-size: 2rem;
+}
+
+/* ---- Solution Section ---- */
+#solution-section {
+    background-color: var(--section-bg-color);
+}
+
+/* ---- Rooms Section ---- */
