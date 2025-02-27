@@ -162,5 +162,15 @@
 /* ---- Testimonials section ---- */
 #testimonials-section{
     background-color: var(--section-bg-color);
-    padding: 5rem 0;
+    padding: 4.5rem 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    filter: invert(100%);
+    margin: 0.6rem;
+}
+
+#testimonials-section button{
+    margin: -1rem;
 }
