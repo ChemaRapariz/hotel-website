@@ -7,7 +7,7 @@ let swiperCards = new Swiper(".card__content", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
-    // dynamicBullets: true,
+    dynamicBullets: true,
   },
 
   navigation: {
@@ -15,7 +15,7 @@ let swiperCards = new Swiper(".card__content", {
     prevEl: ".swiper-button-prev",
   },
 
-  breakpoints:{
+  breakpoints: {
     600: {
       slidesPerView: 2,
     },
