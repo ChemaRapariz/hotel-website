@@ -89,5 +89,12 @@
     text-align: center;
     position: relative;
     z-index: 10;
-    
+}
+
+.card__img {
+    display: block;
+    width: 180px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
 }
