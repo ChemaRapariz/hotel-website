@@ -62,7 +62,27 @@
 }
 
 .card__content{
-    margin-inline: 1.75rem;
+    /* margin-inline: 1.75rem; */
     border-radius: 1.25rem;
     overflow: hidden;
+    background-color: gray;
+}
+
+.card__article{
+    width: 384px;
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+
+.card__image{
+    position: relative;
+    background-color: var(--first-color-light);
+    padding-top: 1.5rem;
+    margin-bottom: -.75rem;
+}
+
+.card__data{
+    background-color: var(--container-color);
+    padding: 1.5rem 2rem;
+
 }
