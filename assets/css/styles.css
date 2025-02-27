@@ -84,5 +84,10 @@
 .card__data{
     background-color: var(--container-color);
     padding: 1.5rem 2rem;
-
+    color: #fff;
+    border-radius: 1rem;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    
 }
