@@ -14,10 +14,6 @@
     --normal-font-size: 1rem;
 }
 
-.fs-6 {
-    font-size: 1rem !important; /* Change to your preferred size */
-}
-
 .text-brand {
     color: var(--brand-color);
 }
@@ -159,4 +155,12 @@
     .swiper-button-prev {
         left: -1rem;
     }
+}
+
+/* ---- Benefits section ---- */
+
+/* ---- Testimonials section ---- */
+#testimonials-section{
+    background-color: var(--section-bg-color);
+    padding: 5rem 0;
 }
