@@ -98,3 +98,12 @@
     position: relative;
     z-index: 5;
 }
+
+.card__button{
+    display: inline-block;
+    background-color: var(--brand-color);
+    padding: .75rem 1.5rem;
+    border-radius: .25rem;
+    color: var(--dark-color);
+    font-weight: 600;
+}
