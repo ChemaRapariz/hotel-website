@@ -81,7 +81,8 @@
     background-color: var(--container-color);
     padding: 1.5rem 2rem;
     color: #fff;
-    border-radius: 1rem;
+    border-end-start-radius: 1rem;
+    border-end-end-radius: 1rem;
     text-align: center;
     position: relative;
     z-index: 10;
@@ -93,6 +94,7 @@
     margin: 0 auto;
     position: relative;
     z-index: 5;
+    border-radius: 1rem;
 }
 
 .card__button {
@@ -134,6 +136,13 @@
 
 .swiper-pagination-bullet-active {
     background-color: var(--brand-active-color);
+}
+
+.room-button {
+    position: relative;
+    margin-top: 0.5rem; 
+    text-align: center;
+    width: 100%; 
 }
 
 /* Rooms Section Breakpoints */
