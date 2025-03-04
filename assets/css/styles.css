@@ -5,13 +5,6 @@
     --brand-active-color: #cc5200;
     /* Even darker for active state */
     --section-bg-color: rgb(242, 242, 242);
-    --dark-color: hsl(212, 40%, 12%);
-    --white-color: hsl(212, 4%, 95%);
-    --container-color: hsl(212, 42%, 20%);
-
-    /* Font and typography */
-    --h2-font-size: 1.25rem;
-    --normal-font-size: 1rem;
 }
 
 .text-brand {
@@ -74,7 +67,7 @@
 }
 
 .card__data {
-    background-color: var(--container-color);
+    background-color: #bdbdbd;
     padding: 1.5rem 2rem;
     color: #fff;
     border-end-start-radius: 1rem;
@@ -177,3 +170,9 @@
 #features-section svg {
     color: var(--brand-color);
 }
+
+/* ---- Footer ---- */
+footer {
+    background-color: black;
+    color: #bdbdbd;
+}  
