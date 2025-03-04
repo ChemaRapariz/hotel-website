@@ -1,5 +1,5 @@
 :root {
-    --brand-color: rgb(240, 119, 44);
+    --brand-color: #f0772c;
     --brand-hover-color: #e65c00;
     /* Slightly darker for hover effect */
     --brand-active-color: #cc5200;
@@ -174,10 +174,6 @@
 }
 
 /* ---- Benefits section ---- */
-
-.check-list svg{
-    color: #F0772C;
-    margin-right: 1rem;
-    width: 35px;
-    height: 35px;
+#features-section svg {
+    color: var(--brand-color);
 }
