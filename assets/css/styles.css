@@ -127,9 +127,9 @@
 
 .room-button {
     position: relative;
-    margin-top: 0.5rem; 
+    margin-top: 0.5rem;
     text-align: center;
-    width: 100%; 
+    width: 100%;
 }
 
 /* Rooms Section Breakpoints */
@@ -139,9 +139,7 @@
     }
 }
 
-@media screen and (min-width: 768px) {
-
-}
+@media screen and (min-width: 768px) {}
 
 @media screen and (min-width: 1120px) {
     .card__container {
@@ -160,17 +158,26 @@
 /* ---- Benefits section ---- */
 
 /* ---- Testimonials section ---- */
-#testimonials-section{
+#testimonials-section {
     background-color: var(--section-bg-color);
     padding: 4.5rem 0;
 }
 
 .carousel-control-prev-icon,
-.carousel-control-next-icon{
+.carousel-control-next-icon {
     filter: invert(100%);
     margin: 0.6rem;
 }
 
-#testimonials-section button{
+#testimonials-section button {
     margin: -1rem;
+}
+
+/* ---- Benefits section ---- */
+
+.check-list svg{
+    color: #F0772C;
+    margin-right: 1rem;
+    width: 35px;
+    height: 35px;
 }
