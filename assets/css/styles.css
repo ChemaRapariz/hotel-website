@@ -36,9 +36,58 @@
 /* ---- Navbar ---- */
 
 /* ---- Hero Section ---- */
-#hero-section h1 {
-    font-size: 2rem;
+h1 {
+    font-size: 1.8rem;
+    /* Default for mobile */
 }
+#hero-section p{
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+
+    /* md breakpoint */
+    h1 {
+        font-size: 1.75rem;
+    }
+    #hero-section p{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* lg breakpoint */
+    h1 {
+        font-size: 2.0rem;
+    }
+    #hero-section p{
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    /* xl breakpoint */
+    h1 {
+        font-size: 2.5rem;
+    }
+    #hero-section p{
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    /* xxl breakpoint */
+    h1 {
+        font-size: 2.75rem;
+    }
+    #hero-section p{
+        font-size: 1.4rem;
+    }
+}
+
 
 /* ---- Solution Section ---- */
 #solution-section {
@@ -175,4 +224,4 @@
 footer {
     background-color: black;
     color: #bdbdbd;
-}  
+}
