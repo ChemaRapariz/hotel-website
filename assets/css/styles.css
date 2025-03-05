@@ -43,6 +43,9 @@ h1 {
 #hero-section p{
     font-size: 1rem;
 }
+.check-hero{
+    color: var(--brand-color);
+}
 
 @media (min-width: 768px) {
 
