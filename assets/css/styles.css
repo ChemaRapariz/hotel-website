@@ -40,10 +40,12 @@ h1 {
     font-size: 1.8rem;
     /* Default for mobile */
 }
-#hero-section p{
+
+#hero-section p {
     font-size: 1rem;
 }
-.check-hero{
+
+.check-hero {
     color: var(--brand-color);
 }
 
@@ -53,7 +55,8 @@ h1 {
     h1 {
         font-size: 1.75rem;
     }
-    #hero-section p{
+
+    #hero-section p {
         font-size: 1rem;
     }
 }
@@ -64,7 +67,8 @@ h1 {
     h1 {
         font-size: 2.0rem;
     }
-    #hero-section p{
+
+    #hero-section p {
         font-size: 1.1rem;
     }
 }
@@ -75,7 +79,8 @@ h1 {
     h1 {
         font-size: 2.5rem;
     }
-    #hero-section p{
+
+    #hero-section p {
         font-size: 1.3rem;
     }
 }
@@ -86,7 +91,8 @@ h1 {
     h1 {
         font-size: 2.75rem;
     }
-    #hero-section p{
+
+    #hero-section p {
         font-size: 1.4rem;
     }
 }
@@ -98,7 +104,10 @@ h1 {
 }
 
 /* ---- Rooms Section ---- */
+
 .card__container {
+    width: 100%;
+    max-width: 1200px;
     padding-block: 5rem;
 }
 
