@@ -16,7 +16,7 @@ let swiperCards = new Swiper(".card__content", {
   },
 
   breakpoints: {
-    600: {
+    768: {
       slidesPerView: 2,
     },
     968: {

@@ -191,6 +191,7 @@ h1 {
   
   .card__container {
     padding-block: 5rem;
+    padding-bottom: 2.5rem
   }
   
   .card__content {
@@ -200,8 +201,6 @@ h1 {
   }
   
   .card__article {
-    width: 300px;
-    /* Remove after adding swiper js */
     border-radius: 1.25rem;
     overflow: hidden;
   }
@@ -232,21 +231,7 @@ h1 {
     z-index: 5;
   }
   
-  .card__shadow {
-    width: 200px;
-    height: 200px;
-    background-color: var(--first-color-alt);
-    border-radius: 50%;
-    position: absolute;
-    top: 3.75rem;
-    left: 0;
-    right: 0;
-    margin-inline: auto;
-    filter: blur(45px);
-  }
-  
   .card__name {
-    font-size: 1.3rem;
     color: var(--brand-color);
     margin-bottom: .75rem;
     font-weight: 600;
@@ -289,12 +274,12 @@ h1 {
   
   .swiper-button-prev {
     left: 0;
-    color: var(--brand-color) !important;
+    color: var(--brand-color);
   }
   
   .swiper-button-next {
     right: 0;
-    color: var(--brand-color) !important;
+    color: var(--brand-color);
   }
   
   .swiper-pagination-bullet {
@@ -322,11 +307,6 @@ h1 {
     color: #6f6f6f;
     margin-top: -14px;
     font-style: italic;
-  }
-  
-  .card__container {
-    padding-bottom: 2.5rem !important;
-    font-weight: 900;
   }
   
 /* ---- Testimonials section ---- */
