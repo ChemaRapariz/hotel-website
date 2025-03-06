@@ -219,6 +219,12 @@ h1 {
     position: relative;
     z-index: 10;
   }
+
+  .card__data__small {
+    z-index: 10;
+    border-radius: 1rem;
+    background: rgba(0, 0, 0, 0.7);
+  }
   
   .card__img {
     width: 100%;
