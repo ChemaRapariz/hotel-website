@@ -438,16 +438,32 @@
                                 <div class="card__image">
                                     <img src="assets/img/rooms-img/apartment copy.avif"
                                         alt="An illustration of a room with a queen size bed. There is an open door that leads to the rest of the apartment. It is clean and well-lit."
-                                        class="card__img">
+                                        class="card__img rounded-4">
+                                    <div id="roomAData"
+                                        class="card__data__small position-absolute top-0 start-0 w-100 h-100 text-white d-flex flex-column justify-content-center d-none d-md-none p-2 align-items-center">
+                                        <ul class="benefits-h">
+                                            <li>Private house + porch</li>
+                                            <li>Queen size bed</li>
+                                            <li>Private bathroom</li>
+                                            <li>Private kitchen</li>
+                                        </ul>
+                                        <h3 class="card__name card__price">250.000 COP</h3>
+                                        <span class="card__description">56.37 USD</span>
+                                    </div>
                                 </div>
-
+                                <div class="text-center mt-5 d-block d-md-none">
+                                    <button id="toggleRoomA"
+                                        class="btn btn-primary brand-button btn-sm rounded-3 text-light px-3 fw-semibold toggle-room-btn"
+                                        data-target="roomAData">View
+                                        More</button>
+                                </div>
                                 <div class="card__data d-none d-md-block">
                                     <h3 class="card__name">APARTMENT</h3>
                                     <ul class="card__description">
                                         <li>Private house + porch</li>
                                         <li>Queen size bed</li>
-                                        <li>Own bathroom</li>
-                                        <li>Own kitchen</li>
+                                        <li>Private bathroom</li>
+                                        <li>Private kitchen</li>
                                     </ul>
                                     <h3 class="card__name card__price">250.000 COP</h3>
                                     <span class="card__description">56.37 USD</span>
