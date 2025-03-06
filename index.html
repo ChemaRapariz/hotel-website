@@ -357,9 +357,26 @@
                             <article class="card__article swiper-slide">
                                 <div class="card__image">
                                     <img src="assets/img/rooms-img/room-6 copy.avif"
-                                        alt="An illustration of a room with a queen size bed." class="card__img">
+                                        alt="An illustration of a room with a queen size bed."
+                                        class="card__img rounded-4">
+                                    <div id="room6Data"
+                                        class="card__data__small position-absolute top-0 start-0 w-100 h-100 text-white d-flex flex-column justify-content-center d-none d-md-none p-2 align-items-center">
+                                        <ul class="benefits-h">
+                                            <li>Queen size bed</li>
+                                            <li>Sleeps 2</li>
+                                            <li>Private bathroom</li>
+                                            <li>Towels included</li>
+                                        </ul>
+                                        <h3 class="card__name card__price">120.000 COP</h3>
+                                        <span class="card__description">27.06 USD</span>
+                                    </div>
                                 </div>
-
+                                <div class="text-center mt-5 d-block d-md-none">
+                                    <button id="toggleRoom6"
+                                        class="btn btn-primary brand-button btn-sm rounded-3 text-light px-3 fw-semibold toggle-room-btn"
+                                        data-target="room6Data">View
+                                        More</button>
+                                </div>
                                 <div class="card__data d-none d-md-block">
                                     <h3 class="card__name">ROOM 6</h3>
                                     <ul class="card__description">
