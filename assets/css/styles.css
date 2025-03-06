@@ -186,7 +186,7 @@ h1 {
 
 /* ----- Room Slideshow ----- */
 #room-slideshow {
-    padding: 5.5rem 0;
+    padding: 1.5rem;
   }
   
   .card__container {
@@ -209,11 +209,7 @@ h1 {
     position: relative;
     margin-bottom: -1.3rem;
   }
-  
-  .card__image img {
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-  }
+
   
   .card__data {
     background-color: rgb(245, 245, 245);
@@ -307,6 +303,12 @@ h1 {
     color: #6f6f6f;
     margin-top: -14px;
     font-style: italic;
+  }
+
+  @media (min-width: 992px) {
+    #room-slideshow{
+        padding: 5.5rem;
+    }
   }
   
 /* ---- Testimonials section ---- */
