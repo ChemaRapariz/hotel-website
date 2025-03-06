@@ -473,14 +473,29 @@
                                         Room</a>
                                 </div>
                             </article>
-
                             <article class="card__article swiper-slide">
                                 <div class="card__image">
                                     <img src="assets/img/rooms-img/dorm copy.avif"
                                         alt="An illustration of a well-lit and spacious room with two bunk beds. There is also a shared closet and curtains for the bottom beds."
-                                        class="card__img">
+                                        class="card__img rounded-4">
+                                    <div id="roomDormData"
+                                        class="card__data__small position-absolute top-0 start-0 w-100 h-100 text-white d-flex flex-column justify-content-center d-none d-md-none p-2 align-items-center">
+                                        <ul class="benefits-h">
+                                            <li>Bunk beds</li>
+                                            <li>4 people</li>
+                                            <li>Shared bathroom</li>
+                                            <li>Towels included</li>
+                                        </ul>
+                                        <h3 class="card__name card__price">65.000 COP</h3>
+                                        <span class="card__description">14.66 USD</span>
+                                    </div>
                                 </div>
-
+                                <div class="text-center mt-5 d-block d-md-none">
+                                    <button id="toggleRoomDorm"
+                                        class="btn btn-primary brand-button btn-sm rounded-3 text-light px-3 fw-semibold toggle-room-btn"
+                                        data-target="roomDormData">View
+                                        More</button>
+                                </div>
                                 <div class="card__data d-none d-md-block">
                                     <h3 class="card__name">DORM</h3>
                                     <ul class="card__description">
@@ -879,6 +894,7 @@
                     // Find the related room data div using the `data-target` attribute
                     let targetId = this.getAttribute("data-target");
                     let roomData = document.getElementById(targetId);
+                    console.log(targetId);
 
                     // Toggle visibility
                     if (roomData) {
