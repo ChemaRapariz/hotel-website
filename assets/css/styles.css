@@ -103,6 +103,87 @@ h1 {
     background-color: var(--section-bg-color);
 }
 
+
+/* ---- Benefits section ---- */
+
+.benefits-h {
+    font-size: 1.2rem;
+}
+
+.benefits-p {
+    font-size: 0.9rem;
+}
+@media (min-width: 576px) {
+    .benefits-h {
+        font-size: 1.3rem;
+    }
+
+    .benefits-p {
+        font-size: 0.9rem;
+    } 
+    .benefits-b{
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    /* md breakpoint */
+    .benefits-h {
+        font-size: 1.3rem;
+    }
+
+    .benefits-p {
+        font-size: 1rem;
+    }
+    .benefits-b{
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* lg breakpoint */
+    .benefits-h {
+        font-size: 1.5rem;
+    }
+
+    .benefits-p {
+        font-size: 1rem;
+    }
+    .benefits-b{
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    /* xl breakpoint */
+    .benefits-h {
+        font-size: 1.8rem;
+    }
+
+    .benefits-p {
+        font-size: 1.3rem;
+    }
+    .benefits-b{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    /* xxl breakpoint */
+    .benefit-h {
+        font-size: 2.75rem;
+    }
+
+    .benefit-p {
+        font-size: 1.4rem;
+    }
+}
+
 /* ---- Rooms Section ---- */
 
 .card__container {
@@ -209,8 +290,6 @@ h1 {
     }
 }
 
-/* ---- Benefits section ---- */
-
 /* ---- Testimonials section ---- */
 #testimonials-section {
     background-color: var(--section-bg-color);
@@ -227,7 +306,7 @@ h1 {
     margin: -1rem;
 }
 
-/* ---- Benefits section ---- */
+/* ---- Features section ---- */
 #features-section svg {
     color: var(--brand-color);
 }
