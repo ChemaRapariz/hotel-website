@@ -328,6 +328,11 @@ h1 {
 
 .google-logo{
     width: 120px;
+    transition: 0.5s;
+}
+
+.google-logo:hover{
+    transform: translateY(-.4rem);
 }
 
 .review-text{
