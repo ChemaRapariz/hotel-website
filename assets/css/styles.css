@@ -386,4 +386,10 @@ footer {
 
 .footer-logo{
     width: 40px;
+    transition: 0.3s;
+}
+
+.footer-logo:hover{
+    color: #ffffff;
+    transform: translateY(-.2rem);
 }
