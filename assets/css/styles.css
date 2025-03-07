@@ -326,6 +326,44 @@ h1 {
     margin: -1rem;
 }
 
+.google-logo{
+    width: 120px;
+}
+
+
+@media (min-width: 576px) {
+    .google-logo{
+        width: 150px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .google-logo{
+        width: 175px;
+    }
+    .google-reviews{
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .google-logo{
+        width: 200px;
+    }
+    .google-reviews{
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}
+
 /* ---- Features section ---- */
 #features-section svg {
     color: var(--brand-color);
