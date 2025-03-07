@@ -39,16 +39,16 @@
             <div class="collapse navbar-collapse w-100" id="navbarNavAltMarkup">
                 <!-- Navigation Links -->
                 <div class="navbar-nav mx-3 me-auto d-flex align-items-start">
-                    <a class="nav-link mx-1" href="#">Rooms</a>
-                    <a class="nav-link mx-1" href="#">Reviews</a>
-                    <a class="nav-link mx-1" href="#">Features</a>
-                    <a class="nav-link mx-1" href="#">FAQs</a>
-                    <a class="nav-link mx-1" href="#">Contact</a>
+                    <a class="nav-link mx-1" href="#room-slideshow">Rooms</a>
+                    <a class="nav-link mx-1" href="#testimonials-section">Reviews</a>
+                    <a class="nav-link mx-1" href="#features-section">Features</a>
+                    <a class="nav-link mx-1" href="#faq-section">FAQs</a>
+                    <a class="nav-link mx-1" href="#cta-section">Contact</a>
                 </div>
 
                 <!-- Button Wrapper to Keep it Aligned -->
                 <div class="d-flex">
-                    <button class="btn btn-primary brand-button btn-sm rounded-3 text-light px-5 fw-semibold">BOOK A
+                    <button class="btn btn-primary brand-button cta-button btn-sm rounded-3 text-light px-5 fw-semibold">BOOK A
                         ROOM</button>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                         community</p>
                     <div class="text-center">
                         <button
-                            class="btn btn-primary brand-button btn-lg rounded-4 text-light mt-3 px-5 fw-semibold">BOOK
+                            class="btn btn-primary brand-button cta-button btn-lg rounded-4 text-light mt-3 px-5 fw-semibold">BOOK
                             A ROOM</button>
                     </div>
                     <!-- Check List (XL) -->
@@ -128,9 +128,9 @@
                         <h3 class="lead mb-4 fw-medium benefits-h">Find comfort</h3>
                         <p class="lead benefits-p mb-xl-4">Stay your way: private rooms, shared dorms, apartments, or
                             campsites.</p>
-                        <button
-                            class="btn btn-primary brand-button btn-sm rounded-3 text-light px-2 fw-semibold benefits-b">CHECK
-                            OUR ROOMS</button>
+                        <a
+                            class="btn btn-primary brand-button btn-sm rounded-3 text-light px-2 fw-semibold benefits-b" href="#room-slideshow" role="button">CHECK
+                            OUR ROOMS</a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-5 order-1 order-sm-2" data-aos="fade-up" data-aos-duration="1000"
@@ -963,6 +963,15 @@
                     if (roomData) {
                         roomData.classList.toggle("d-none");
                     }
+                });
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll(".cta-button").forEach(button => {
+                button.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    document.querySelector("#cta-section").scrollIntoView({ behavior: "smooth" });
                 });
             });
         });
