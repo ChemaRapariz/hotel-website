@@ -383,3 +383,7 @@ footer {
     background-color: black;
     color: #bdbdbd;
 }
+
+.footer-logo{
+    width: 40px;
+}
