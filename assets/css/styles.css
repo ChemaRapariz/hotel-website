@@ -113,6 +113,7 @@ h1 {
 .benefits-p {
     font-size: 0.9rem;
 }
+
 @media (min-width: 576px) {
     .benefits-h {
         font-size: 1.3rem;
@@ -120,8 +121,9 @@ h1 {
 
     .benefits-p {
         font-size: 0.9rem;
-    } 
-    .benefits-b{
+    }
+
+    .benefits-b {
         font-size: 0.9rem;
     }
 }
@@ -137,7 +139,8 @@ h1 {
     .benefits-p {
         font-size: 1rem;
     }
-    .benefits-b{
+
+    .benefits-b {
         font-size: 0.9rem;
     }
 }
@@ -152,7 +155,8 @@ h1 {
     .benefits-p {
         font-size: 1rem;
     }
-    .benefits-b{
+
+    .benefits-b {
         font-size: 0.9rem;
     }
 }
@@ -167,7 +171,8 @@ h1 {
     .benefits-p {
         font-size: 1.3rem;
     }
-    .benefits-b{
+
+    .benefits-b {
         font-size: 1rem;
     }
 }
@@ -187,64 +192,64 @@ h1 {
 /* ----- Room Slideshow ----- */
 #room-slideshow {
     padding: 1.5rem;
-  }
-  
-  .card__container {
+}
+
+.card__container {
     padding-block: 5rem;
     padding-bottom: 2.5rem
-  }
-  
-  .card__content {
+}
+
+.card__content {
     margin-inline: 1.75rem;
     border-radius: 1.25rem;
     overflow: hidden;
-  }
-  
-  .card__article {
+}
+
+.card__article {
     border-radius: 1.25rem;
     overflow: hidden;
-  }
-  
-  .card__image {
+}
+
+.card__image {
     position: relative;
     margin-bottom: -1.3rem;
-  }
+}
 
-  
-  .card__data {
+
+.card__data {
     background-color: rgb(245, 245, 245);
     padding: 1.5rem 2rem;
     border-radius: 1rem;
     text-align: left;
     position: relative;
     z-index: 10;
-  }
+}
 
-  .card__data__small {
+.card__data__small {
     z-index: 10;
     border-radius: 1rem;
     background: rgba(0, 0, 0, 0.7);
-  }
-  
-  .card__img {
+}
+
+.card__img {
     width: 100%;
     margin: 0 auto;
     position: relative;
     z-index: 5;
-  }
-  
-  .card__name {
+}
+
+.card__name {
     color: var(--brand-color);
     margin-bottom: .75rem;
     font-weight: 600;
-  }
-  
-  .card__description {
+}
+
+.card__description {
     font-weight: 500;
     margin-bottom: 1.75rem;
-  }
-  
-  .card__button {
+}
+
+.card__button {
     display: inline-block;
     background-color: var(--brand-color);
     padding: .75rem 1.5rem;
@@ -253,63 +258,69 @@ h1 {
     font-weight: 600;
     text-decoration: none;
     transition: background-color 0.1s ease-in;
-  }
-  
-  .card__button:hover {
+}
+
+.card__button:hover {
     background-color: var(--brand-hover-color);
-  }
-  
-  /* Swiper class */
-  .swiper-button-prev:after,
-  .swiper-button-next:after {
+}
+
+/* Swiper class */
+.swiper-button-prev:after,
+.swiper-button-next:after {
     content: "";
-  }
-  
-  .swiper-button-prev,
-  .swiper-button-next {
+}
+
+.swiper-button-prev,
+.swiper-button-next {
     width: initial;
     height: initial;
     font-size: 3rem;
     color: var(--brand-color);
     display: none;
-  }
-  
-  .swiper-button-prev {
+}
+
+.swiper-button-prev {
     left: 0;
     color: var(--brand-color);
-  }
-  
-  .swiper-button-next {
+}
+
+.swiper-button-next {
     right: 0;
     color: var(--brand-color);
-  }
-  
-  .swiper-pagination-bullet {
+}
+
+.swiper-pagination-bullet {
     background-color: var(--brand-color);
     opacity: 1;
-  }
-  
-  .swiper-pagination-bullet-active {
+}
+
+.swiper-pagination-bullet-active {
     background-color: var(--brand-active-color);
-  }
-  
-  .card__price {
+}
+
+.card__price {
     font-size: 2rem;
-  }
-  
-  .card__description li {
+}
+
+@media (min-width: 768px) {
+    .card__price {
+        font-size: 1.7rem;
+    }
+}
+
+.card__description li {
     font-family: "Inter", sans-serif;
     font-weight: 300;
-    font-size: 1.4rem;
+    font-size: 1.15rem;
     margin-bottom: .3rem;
-  }
+}
 
-  @media (min-width: 992px) {
-    #room-slideshow{
+@media (min-width: 992px) {
+    #room-slideshow {
         padding: 5.5rem;
     }
-  }
-  
+}
+
 /* ---- Testimonials section ---- */
 #testimonials-section {
     background-color: var(--section-bg-color);
@@ -326,49 +337,52 @@ h1 {
     margin: -1rem;
 }
 
-.google-logo{
+.google-logo {
     width: 120px;
     transition: 0.5s;
 }
 
-.google-logo:hover{
+.google-logo:hover {
     transform: translateY(-.4rem);
 }
 
-.review-text{
+.review-text {
     font-size: 1.25rem;
 }
 
 @media (min-width: 576px) {
-    .google-logo{
+    .google-logo {
         width: 150px;
     }
 }
 
 
 @media (min-width: 768px) {
-    .google-logo{
+    .google-logo {
         width: 175px;
     }
-    .google-reviews{
+
+    .google-reviews {
         font-size: 1.6rem;
     }
 }
 
 @media (min-width: 992px) {
-    .google-logo{
+    .google-logo {
         width: 200px;
     }
-    .google-reviews{
+
+    .google-reviews {
         font-size: 2rem;
     }
-    .review-text{
+
+    .review-text {
         font-size: 1.55rem;
     }
 }
 
 @media (min-width: 1200px) {
-    .review-text{
+    .review-text {
         font-size: 1.65rem;
     }
 }
@@ -384,12 +398,12 @@ footer {
     color: #bdbdbd;
 }
 
-.footer-logo{
+.footer-logo {
     width: 40px;
     transition: 0.3s;
 }
 
-.footer-logo:hover{
+.footer-logo:hover {
     color: #ffffff;
     transform: translateY(-.2rem);
 }
