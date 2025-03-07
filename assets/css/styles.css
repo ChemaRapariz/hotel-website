@@ -303,13 +303,6 @@ h1 {
     font-size: 1.4rem;
     margin-bottom: .3rem;
   }
-  
-  span.card__description {
-    display: block;
-    color: #6f6f6f;
-    margin-top: -14px;
-    font-style: italic;
-  }
 
   @media (min-width: 992px) {
     #room-slideshow{
