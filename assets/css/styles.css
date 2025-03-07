@@ -330,6 +330,9 @@ h1 {
     width: 120px;
 }
 
+.review-text{
+    font-size: 1.25rem;
+}
 
 @media (min-width: 576px) {
     .google-logo{
@@ -354,14 +357,15 @@ h1 {
     .google-reviews{
         font-size: 2rem;
     }
+    .review-text{
+        font-size: 1.55rem;
+    }
 }
 
 @media (min-width: 1200px) {
-
-}
-
-@media (min-width: 1400px) {
-
+    .review-text{
+        font-size: 1.65rem;
+    }
 }
 
 /* ---- Features section ---- */
