@@ -94,13 +94,17 @@
                 <!-- Right Column (Image) -->
                 <div class="col-md-6 text-center">
                     <picture>
-                        <source srcset="assets/img/hero-img/hero-image-copy.webp" type="image/webp">
-
-                        <source srcset="assets/img/hero-img/hero-image-copy.avif" type="image/avif">
-
-                        <img src="assets/img/hero-img/hero-image-copy.avif" alt="Hero Image"
-                            class="img-fluid rounded-5 shadow">
-                    </picture>
+                        <!-- Mobile devices: up to 767px wide -->
+                        <source srcset="assets/img/hero-img/hero-image-mobile.webp" media="(max-width: 767px)" type="image/webp">
+                        
+                        <!-- Tablets: from 768px to 1023px wide -->
+                        <source srcset="assets/img/hero-img/hero-image-tablet.webp" media="(min-width: 768px) and (max-width: 1023px)" type="image/webp">
+                        
+                        <!-- Desktops: 1024px and up -->
+                        <source srcset="assets/img/hero-img/hero-image-desktop.webp" media="(min-width: 1024px)" type="image/webp">
+                        
+                        <img src="assets/img/hero-img/hero-image-desktop.avif" alt="Hero Image" class="img-fluid rounded-5 shadow">
+                      </picture>
                 </div>
             </div>
         </section>
