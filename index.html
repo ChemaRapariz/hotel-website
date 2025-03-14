@@ -68,7 +68,7 @@
                             class="btn btn-primary brand-button cta-button btn-lg rounded-4 text-light mt-3 px-5 fw-semibold">BOOK
                             A ROOM</button>
                     </div>
-                    <!-- Check List (XL) -->
+                    <!-- Check List (LG) -->
                     <ul class="mb-0 mt-5 px-0 list-unstyled d-none d-lg-block">
                         <li><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
                                 class="bi bi-check-lg check-hero mx-3 my-1" viewBox="0 0 16 16">
@@ -93,7 +93,18 @@
 
                 <!-- Right Column (Image) -->
                 <div class="col-md-6 text-center">
-                    <img src="assets/img/hero-img/hero-image copy.png" alt="" class="img-fluid rounded-5 shadow">
+                    <!-- <img src="assets/img/hero-img/hero-image copy.png" alt="" class="img-fluid rounded-5 shadow"> -->
+                    <picture>
+                        <!-- WebP version for modern browsers -->
+                        <source srcset="assets/img/hero-img/hero-image-copy.webp" type="image/webp">
+
+                        <!-- AVIF version for browsers that support it (optional) -->
+                        <source srcset="assets/img/hero-img/hero-image-copy.avif" type="image/avif">
+
+                        <!-- Fallback to PNG for unsupported browsers -->
+                        <img src="assets/img/hero-img/hero-image-copy.png" alt="Hero Image"
+                            class="img-fluid rounded-5 shadow">
+                    </picture>
                 </div>
             </div>
         </section>
