@@ -23,7 +23,11 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <!-- Preload Hero Image -->
-    <link rel="preload" as="image" href="assets/img/hero-img/hero-image-mobile.webp">
+    <link rel="preload" href="assets/img/hero-img/hero-image-desktop.webp" as="image" media="(min-width: 1024px)">
+    <link rel="preload" href="assets/img/hero-img/hero-image-tablet.webp" as="image"
+        media="(min-width: 768px) and (max-width: 1023px)">
+    <link rel="preload" href="assets/img/hero-img/hero-image-mobile.webp" as="image" media="(max-width: 767px)">
+
 
 
 </head>
@@ -99,16 +103,20 @@
                 <div class="col-md-6 text-center">
                     <picture>
                         <!-- Mobile devices: up to 767px wide -->
-                        <source srcset="assets/img/hero-img/hero-image-mobile.webp" media="(max-width: 767px)" type="image/webp">
-                        
+                        <source srcset="assets/img/hero-img/hero-image-mobile.webp" media="(max-width: 767px)"
+                            type="image/webp">
+
                         <!-- Tablets: from 768px to 1023px wide -->
-                        <source srcset="assets/img/hero-img/hero-image-tablet.webp" media="(min-width: 768px) and (max-width: 1023px)" type="image/webp">
-                        
+                        <source srcset="assets/img/hero-img/hero-image-tablet.webp"
+                            media="(min-width: 768px) and (max-width: 1023px)" type="image/webp">
+
                         <!-- Desktops: 1024px and up -->
-                        <source srcset="assets/img/hero-img/hero-image-desktop.webp" media="(min-width: 1024px)" type="image/webp">
-                        
-                        <img src="assets/img/hero-img/hero-image-desktop.avif" alt="Hero Image" class="img-fluid rounded-5 shadow" fetchpriority="high" width="1198" height="912">
-                      </picture>
+                        <source srcset="assets/img/hero-img/hero-image-desktop.webp" media="(min-width: 1024px)"
+                            type="image/webp">
+
+                        <img src="assets/img/hero-img/hero-image-desktop.avif" alt="Hero Image"
+                            class="img-fluid rounded-5 shadow" fetchpriority="high" width="1198" height="912">
+                    </picture>
                 </div>
             </div>
         </section>
@@ -162,8 +170,8 @@
                         <source srcset="assets/img/benefits-img/room-benefit-copy.avif" type="image/avif">
 
                         <img src="assets/img/benefits-img/room-benefit-copy.avif" alt=""
-                            class="img-fluid shadow rounded-5" loading="lazy" data-aos="fade-up" data-aos-duration="1000"
-                            data-aos-delay="400">
+                            class="img-fluid shadow rounded-5" loading="lazy" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-delay="400">
                     </picture>
                 </div>
             </div>
@@ -185,8 +193,8 @@
                         <source srcset="assets/img/benefits-img/food-benefit-copy.avif" type="image/avif">
 
                         <img src="assets/img/benefits-img/room-benefit-copy.avif" alt=""
-                            class="img-fluid shadow rounded-5" loading="lazy" data-aos="fade-up" data-aos-duration="1000"
-                            data-aos-delay="400">
+                            class="img-fluid shadow rounded-5" loading="lazy" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-delay="400">
                     </picture>
                 </div>
             </div>
@@ -207,8 +215,8 @@
                         <source srcset="assets/img/benefits-img/experience-benefit-copy.avif" type="image/avif">
 
                         <img src="assets/img/benefits-img/experience-benefit-copy.avif" alt=""
-                            class="img-fluid shadow rounded-5" loading="lazy" data-aos="fade-up" data-aos-duration="1000"
-                            data-aos-delay="400">
+                            class="img-fluid shadow rounded-5" loading="lazy" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-delay="400">
                     </picture>
                 </div>
             </div>
@@ -229,8 +237,8 @@
                         <source srcset="assets/img/benefits-img/activities-benefit-copy.avif" type="image/avif">
 
                         <img src="assets/img/benefits-img/activities-benefit-copy.avif" alt=""
-                            class="img-fluid shadow rounded-5" loading="lazy" data-aos="fade-up" data-aos-duration="1000"
-                            data-aos-delay="400">
+                            class="img-fluid shadow rounded-5" loading="lazy" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-delay="400">
                     </picture>
                 </div>
             </div>
