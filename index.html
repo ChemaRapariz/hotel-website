@@ -22,6 +22,10 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
 
+    <!-- Preload Hero Image -->
+    <link rel="preload" as="image" href="assets/img/hero-img/hero-image-mobile.webp">
+
+
 </head>
 
 <body>
@@ -103,7 +107,7 @@
                         <!-- Desktops: 1024px and up -->
                         <source srcset="assets/img/hero-img/hero-image-desktop.webp" media="(min-width: 1024px)" type="image/webp">
                         
-                        <img src="assets/img/hero-img/hero-image-desktop.avif" alt="Hero Image" class="img-fluid rounded-5 shadow">
+                        <img src="assets/img/hero-img/hero-image-desktop.avif" alt="Hero Image" class="img-fluid rounded-5 shadow" fetchpriority="high">
                       </picture>
                 </div>
             </div>
